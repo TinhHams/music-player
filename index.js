@@ -23,61 +23,61 @@ const app = {
             name: "like i need u",
             singer: "keshi",
             path: "./music/song1.mp3",
-            image: "./assets/pics/pic1.jpg"
+            image: "./pics/pic1.jpg"
         },
         {
             name: "it just is",
             singer: "eaJ x Seori (ft.keshi)",
             path: "./music/song2.mp3",
-            image: "./assets/pics/pic2.jpg"
+            image: "./pics/pic2.jpg"
         },
         {
             name: "2 soon",
             singer: "keshi",
             path: "./music/song3.mp3",
-            image: "./assets/pics/pic3.jpg"
+            image: "./pics/pic3.jpg"
         },
         {
             name: "omm",
             singer: "mj apanay",
             path: "./music/song4.mp3",
-            image: "./assets/pics/pic4.jpg"
+            image: "./pics/pic4.jpg"
         },
         {
             name: "headache",
             singer: "Millennio (ft.Sweet The Kid, Klight)",
             path: "./music/song5.mp3",
-            image: "./assets/pics/pic5.jpg"
+            image: "./pics/pic5.jpg"
         },
         {
             name: "Only U",
             singer: "Moon Sujin x Jiselle (ft.PENOMECO)",
             path: "./music/song6.mp3",
-            image: "./assets/pics/pic6.jpg"
+            image: "./pics/pic6.jpg"
         },
         {
             name: "Angel",
             singer: "DAVII ",
             path: "./music/song7.mp3",
-            image: "./assets/pics/pic7.jpg"
+            image: "./pics/pic7.jpg"
         },
         {
             name: "Where the Flowers Bloom",
             singer: "KASS (ft.punchnello)",
             path: "./music/song8.mp3",
-            image: "./assets/pics/pic8.jpg"
+            image: "./pics/pic8.jpg"
         },
         {
             name: "ALJI",
             singer: "Sam Rui (ft.MELOH)",
             path: "./music/song9.mp3",
-            image: "./assets/pics/pic9.jpg"
+            image: "./pics/pic9.jpg"
         },
         {
             name: "AGAIN",
             singer: "Def (ft.LEON)",
             path: "./music/song10.mp3",
-            image: "./assets/pics/pic10.jpg"
+            image: "./pics/pic10.jpg"
         }
     ],
     render: function() {
