@@ -62,8 +62,8 @@ const app = {
             image: "./pics/pic7.jpg"
         },
         {
-            name: "Where the Flowers Bloom",
-            singer: "KASS (ft.punchnello)",
+            name: "하루종일 (24hrs)",
+            singer: "Jimmy Brown, Jword",
             path: "./music/song8.mp3",
             image: "./pics/pic8.jpg"
         },
