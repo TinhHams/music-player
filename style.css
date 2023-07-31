@@ -91,14 +91,14 @@
   }
   
   .control .btn {
-    color: #666;
+    color: #65647C;
     padding: 18px;
     font-size: 18px;
     cursor: pointer;
   }
   
   .control .btn.active {
-    color: var(--primary-color);
+    color: #251749;
   }
   
   .control .btn-toggle-play {
