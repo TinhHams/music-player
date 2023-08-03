@@ -123,6 +123,7 @@
     opacity: 0.7;
     -webkit-transition: 0.2s;
     transition: opacity 0.2s;
+    cursor: pointer;
   }
   
   .progress::-webkit-slider-thumb {
@@ -131,7 +132,6 @@
     width: 12px;
     height: 6px;
     background-color: var(--primary-color);
-    cursor: pointer;
   }
   
   /* PLAYLIST */
