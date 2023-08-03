@@ -78,6 +78,36 @@ const app = {
             singer: "Def (ft.LEON)",
             path: "./music/song10.mp3",
             image: "./pics/pic10.jpg"
+        },
+        {
+            name: "fuxxin' love",
+            singer: "OoOo(오넷)",
+            path: "./music/song11.mp3",
+            image: "./pics/pic11.jpg"
+        },
+        {
+            name: "Instagram",
+            singer: "DEAN",
+            path: "./music/song12.mp3",
+            image: "./pics/pic12.jpg"
+        },
+        {
+            name: "click",
+            singer: "Sweet The Kid",
+            path: "./music/song13.mp3",
+            image: "./pics/pic13.jpg"
+        },
+        {
+            name: "Lagi (cover)",
+            singer: "Noah Raquel",
+            path: "./music/song14.mp3",
+            image: "./pics/pic14.jpg"
+        },
+        {
+            name: "Can you love me tonight?",
+            singer: "KAIRO",
+            path: "./music/song15.mp3",
+            image: "./pics/pic15.jpg"
         }
     ],
     render: function() {
