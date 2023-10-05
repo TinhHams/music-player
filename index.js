@@ -11,6 +11,7 @@ const nextBtn = $(".btn-next")
 const prevBtn = $(".btn-prev")
 const repeatBtn = $(".btn-repeat")
 const randomBtn = $(".btn-random")
+const volumeControlBtn = $(".volume-control-btn")
 
 const playlist = $(".playlist");
 const app = {
@@ -108,6 +109,12 @@ const app = {
             singer: "KAIRO",
             path: "./music/song15.mp3",
             image: "./pics/pic15.jpg"
+        },
+        {
+            name: "B.Y.S.",
+            singer: "keshi",
+            path: "./music/song16.mp3",
+            image: "./pics/pic16.jpg"
         }
     ],
     render: function() {
@@ -244,6 +251,19 @@ const app = {
                     
                 }
             }
+        }
+        volumeControlBtn.onlick = function() {
+            
+        }
+        audio.onplay = function() {
+            _this.isPlaying = true
+            player.classList.add("playing")
+            cdThumbAnimate.play()
+        }
+        audio.onpause = function() {
+            _this.isPlaying = false
+            player.classList.remove("playing")
+            cdThumbAnimate.pause()
         }
     },
     loadCurrentSong: function() {
