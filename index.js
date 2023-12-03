@@ -115,6 +115,18 @@ const app = {
             singer: "keshi",
             path: "./music/song16.mp3",
             image: "./pics/pic16.jpg"
+        },
+        {
+            name: "know you",
+            singer: "mj apanay",
+            path: "./music/song17.mp3",
+            image: "./pics/pic17.jpg"
+        },
+        {
+            name: "less of you",
+            singer: "keshi",
+            path: "./music/song18.mp3",
+            image: "./pics/pic18.jpg"
         }
     ],
     render: function() {
